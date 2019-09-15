@@ -27,6 +27,8 @@ public:
         elements.remove(element);
     }
     
+    //这里process就不论是leaf还是component，root都进行了处理，
+    //不必为每一种类型进行单独处理
     void process(){
         
         //1. process current node
