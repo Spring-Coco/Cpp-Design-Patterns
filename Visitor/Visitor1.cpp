@@ -1,4 +1,4 @@
-//缺陷，要求visitor必须知道Element的个数
+//缺陷，要求visitor必须知道Element子类的个数,
 #include <iostream>
 using namespace std;
 
