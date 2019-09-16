@@ -1,4 +1,8 @@
 //缺陷，要求visitor必须知道Element子类的个数,
+//思路：即element想做的事交给Visitor去做，即定义了一个用
+//Visitor对象做参数的函数，然后Visitor对象调用element做参数的
+//函数对其进行作用，所以一般有几个Element的继承，那么Visitor就
+//有几个对其进行处理的函数。
 #include <iostream>
 using namespace std;
 
